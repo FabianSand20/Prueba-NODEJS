@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card-form {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+label, input, select, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+}
+
+.cards-list {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+li:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}

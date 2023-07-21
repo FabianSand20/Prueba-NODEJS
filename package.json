@@ -1,0 +1,24 @@
+{
+  "name": "prueba-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianSand20/Prueba-NODEJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabianSand20/Prueba-NODEJS/issues"
+  },
+  "homepage": "https://github.com/FabianSand20/Prueba-NODEJS#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jquery": "^3.7.0"
+  }
+}

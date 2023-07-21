@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registro de Cartas Yu-Gi-Oh!</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Registro de Cartas Yu-Gi-Oh!</h1>
+    <div class="card-form">
+      <h2>Registrar nueva carta</h2>
+      <form id="registration-form">
+        <label for="card-type">Tipo de carta:</label>
+        <select id="card-type" name="cardType">
+          <option value="monstruo">Monstruo</option>
+          <option value="magica">Mágica</option>
+          <option value="trampa">Trampa</option>
+        </select>
+        <br>
+        <label for="card-name">Nombre:</label>
+        <input type="text" id="card-name" name="cardName" required>
+        <br>
+        <label for="card-description">Descripción:</label>
+        <textarea id="card-description" name="cardDescription" rows="3" required></textarea>
+        <br>
+        <label for="card-battle-points">Puntos de batalla:</label>
+        <input type="number" id="card-battle-points" name="cardBattlePoints" required>
+        <br>
+        <input type="submit" value="Registrar carta">
+      </form>
+    </div>
+    <div class="cards-list">
+      <h2>Lista de cartas registradas</h2>
+      <ul id="cards-list">
+        <!-- Aquí se mostrarán las cartas registradas -->
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
